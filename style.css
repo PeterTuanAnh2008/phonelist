@@ -1,0 +1,72 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* -------------------------------------- */
+/* reuseable class */
+#body{
+    text-align: center;
+    color: aqua;
+    background-image: url(https://phunugioi.com/wp-content/uploads/2020/02/mau-background-dep.jpg);
+}
+#form{
+    text-align: center;
+}
+.padding-10{
+    padding: 10px;
+}
+.btn {
+    padding:5px  10px;
+    border: none;
+    border-radius: 3px;
+    color: aliceblue;
+    text-align: center;
+    border: 5px;
+    border-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+.bg-green {
+    background-color: green;
+}
+.padding-5{
+    padding: 5px;
+}
+
+
+/* ------------------------------------------ */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(32, 71, 156);
+    color: aliceblue;
+}
+th , td ,table {
+    padding: 10px; 
+    border-collapse: collapse;
+}
+tr{   border-bottom: 1px solid black;
+}
+table{
+    width: 100%;
+}
+td{
+text-align: center;
+}
+input {
+    display: flex;
+    align-items: flex-start;
+}
+#table{
+    text-align: center;
+}
+.aF{
+    text-align: center;
+    border: 5px;
+    border-color: blue;
+}
